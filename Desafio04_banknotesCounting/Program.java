@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio04_banknotesCounting;
+package Desafio04_banknotesCounting;
 
 import java.util.Scanner;
 

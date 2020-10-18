@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio01_positiveOrNegatives;
+package Desafio01_positiveOrNegatives;
 
 import java.util.ArrayList;
 import java.util.List;

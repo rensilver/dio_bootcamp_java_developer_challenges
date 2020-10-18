@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio03_evenOdd_positiveNegative_numbers;
+package Desafio03_evenOdd_positiveNegative_numbers;
 
 import java.util.Scanner;
 

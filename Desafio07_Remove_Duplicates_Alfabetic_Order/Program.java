@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio07_Remove_Duplicates_Alfabetic_Order;
+package Desafio07_Remove_Duplicates_Alfabetic_Order;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio09_Fila_De_Banco;
+package Desafio09_Fila_De_Banco;
 
 import java.util.*;
 

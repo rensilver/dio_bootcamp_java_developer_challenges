@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio08_Lista_Uniformes_Esc_FimDeAno;
+package Desafio08_Lista_Uniformes_Esc_FimDeAno;
 
 import java.io.BufferedReader;
 import java.io.IOException;

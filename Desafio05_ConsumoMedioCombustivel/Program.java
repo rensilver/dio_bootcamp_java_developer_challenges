@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio05_ConsumoMedioCombustivel;
+package Desafio05_ConsumoMedioCombustivel;
 
 import java.util.Locale;
 import java.util.Scanner;

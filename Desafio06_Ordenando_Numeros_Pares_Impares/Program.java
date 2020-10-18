@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio06_Ordenando_Numeros_Pares_Impares;
+package Desafio06_Ordenando_Numeros_Pares_Impares;
 
 import java.util.ArrayList;
 import java.util.Comparator;

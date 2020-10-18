@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio02_evenNumbers;
+package Desafio02_evenNumbers;
 
 import java.util.ArrayList;
 import java.util.Scanner;

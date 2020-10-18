@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio10_Gincana_Acampamento_emandamento;
+package Desafio10_Gincana_Acampamento_emandamento;
 
 import java.io.BufferedReader;
 import java.io.IOException;

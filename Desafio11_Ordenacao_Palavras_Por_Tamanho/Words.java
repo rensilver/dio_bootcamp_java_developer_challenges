@@ -1,4 +1,4 @@
-package DIO_Challenges.Desafio11_Ordenacao_Palavras_Por_Tamanho;
+package Desafio11_Ordenacao_Palavras_Por_Tamanho;
 
 import java.io.BufferedReader;
 import java.io.IOException;
