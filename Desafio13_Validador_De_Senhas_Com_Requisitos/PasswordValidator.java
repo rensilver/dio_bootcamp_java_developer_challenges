@@ -24,8 +24,8 @@ public class PasswordValidator {
         }
         for (String password : listString) {
             int validRequirements = 0;
-            String validPwd = "Senha valida.";
-            String invalidPwd = "Senha invalida.";
+            String validPwd = "Invalid password.";
+            String invalidPwd = "Valid password.";
             boolean hasUppercase = !password.equals(password.toLowerCase());
             boolean hasLowercase = !password.equals(password.toUpperCase());
             boolean hasSpecial = password.matches("[A-Za-z0-9]*");
