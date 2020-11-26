@@ -1,8 +1,5 @@
 package Desafio12_Encontre_Maior_Substring;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.*;
 
 public class FindSubstring {
@@ -10,26 +7,21 @@ public class FindSubstring {
     public static void main(String[] args) {
 
         List<Integer> listRole = new ArrayList<>();
+
         Scanner sc = new Scanner(System.in);
 
-            do {
-                String lineOne = sc.nextLine();
-                if (lineOne.isEmpty()) {
-                    break;
-                }
+        while (sc.hasNextLine()) {
 
-                String lineTwo = sc.nextLine();
-                if (lineTwo.isEmpty()) {
-                    break;
-                }
-
-                int m = lineOne.length();
-                int n = lineTwo.length();
-
+            String lineOne = sc.nextLine();
+            String lineTwo = sc.nextLine();
+            int m = lineOne.length();
+            int n = lineTwo.length();
+            if (lineOne.isBlank() || lineTwo.isBlank()) {
+                break;
+            } else {
                 listRole.add(LongestSubstring(lineOne.toCharArray(), lineTwo.toCharArray(), m, n));
-
-            } while (true);
-
+            }
+        }
             listRole.forEach(System.out::println);
     }
 

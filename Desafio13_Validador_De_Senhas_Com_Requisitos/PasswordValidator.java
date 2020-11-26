@@ -32,28 +32,14 @@ public class PasswordValidator {
             boolean isMinimum = password.length() >= 6;
             boolean isAtLeast32 = password.length() <= 32;
 
-            if (hasUppercase) {
-                validRequirements += 1;
-            }
-            if (hasLowercase) {
-                validRequirements += 1;
-            }
-            if (hasSpecial) {
-                validRequirements += 1;
-            }
-            if (isMinimum) {
-                validRequirements += 1;
-            }
-            if (isAtLeast32) {
-                validRequirements += 1;
-            }
+            if (hasUppercase) { validRequirements += 1; }
+            if (hasLowercase) { validRequirements += 1; }
+            if (hasSpecial) { validRequirements += 1; }
+            if (isMinimum) { validRequirements += 1; }
+            if (isAtLeast32) { validRequirements += 1; }
 
-            if (validRequirements == 5) {
-                System.out.println(validPwd);
-            }
-            else {
-                System.out.println(invalidPwd);
-            }
+            if (validRequirements == 5) { System.out.println(validPwd); }
+            else { System.out.println(invalidPwd); }
         }
         sc.close();
 
